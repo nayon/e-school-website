@@ -1,0 +1,19 @@
+.container{
+    background-color: #f0fff0;
+}
+.navbar .imgl{
+    position: relative;
+    left: 100px;
+}  
+}
+.navbar1{
+    left: 5px;
+    top: 5px;
+}
+.sing-button{
+    background-color: #21B573;
+    color: #fff;
+    border: none;
+    border-radius: 33px;
+
+}
