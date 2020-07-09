@@ -1,19 +1,96 @@
-.container{
+body{
+    height: 100%;
+    width: 100%;
+}
+.banner-area{
     background-color: #f0fff0;
 }
-.navbar .imgl{
-    position: relative;
-    left: 100px;
-}  
+.navbar-nav{
+    margin: 20px 40px;
 }
-.navbar1{
-    left: 5px;
-    top: 5px;
+.nav-item{
+    margin-right: 20px;
 }
-.sing-button{
-    background-color: #21B573;
+.sing-in-btn{
+    background-color:#21B573 ;
     color: #fff;
     border: none;
     border-radius: 33px;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+.sing-in-btn:hover{
+    background-color: rgb(46, 221, 134);
+    color: rgb(8, 8, 8);
+}
+.banner-item{
+    padding: 90px 40px;
+}
+.banner-part h6{
+    color: red;
+}
+.extra-design{
+    color: rgb(46, 221, 134);
+}
+.secound-sec{
+    margin-top:30px;
+}
+.snd-sec-div{
+    margin-bottom:7%;
+    margin-top:7%;
+    display: grid;
+}
 
+.col-infin{
+    background-color:#f0fff0;
+    border-radius: 10px;
+    transition: .45s;
+}   
+
+.col-infin:hover{
+    box-shadow:  0px 20px 30px gray;
+    background-color: white;
+}
+.img-fluid{
+    width: 80px;
+    height: 83px;
+}
+.last-2{
+    padding: 40px 0;
+}
+.last-1:hover{
+        box-shadow:  0px 20px 20px gray;
+        background-color: white;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.card-footer img{
+    height: 24px;
+    width: 20px;
+}
+.icon-image-1{
+    width: 10px;
+    height: 10px;
+}
+.fourt-part{
+    padding: 50px 10px;
+}
+.last-img{
+    
+    width: 120px;
+    height: 120px;
+}
+.last-one{
+    background-color: #282531;
+    display: block;
+    padding-top: 55px;
+    height: 369px;
+}
+.last-one-1{
+    color: white;
+}
+.text-sm{
+    font-size: 10px;
 }
